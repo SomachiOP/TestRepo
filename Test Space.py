@@ -1,3 +1,5 @@
+from time import sleep
+
 def blam(name: str = "?") -> str:
     """
     Function to blamify something
@@ -8,6 +10,10 @@ def blam(name: str = "?") -> str:
     Returns:
         str: Status of blamification
     """
+    
+    print(f"Blamming {name}...")
+    sleep(3)
+    
     
     return f"{name} has been blammed!"
 
