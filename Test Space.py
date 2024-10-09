@@ -1,5 +1,6 @@
 from time import sleep
 from rich.traceback import install; install()
+print("a")
 
 def blam(name: str = "?") -> str:
     """
