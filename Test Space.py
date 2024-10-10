@@ -1,6 +1,6 @@
 from time import sleep
 from rich.traceback import install; install()
-print("a")
+print("Hello World")
 
 def blam(name: str = "?") -> str:
     """
@@ -24,7 +24,7 @@ def blam(name: str = "?") -> str:
 print("Hello World")
 print(blam("Python"))
 
-
+print("Bruh Momento")
 
 try:
   if int(input()) == 1:
